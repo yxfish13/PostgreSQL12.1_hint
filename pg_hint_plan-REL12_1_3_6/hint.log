@@ -1,0 +1,21 @@
+2020-12-08 16:44:12.683 CST [7102] LOG:  starting PostgreSQL 12.1 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-39), 64-bit
+2020-12-08 16:44:12.684 CST [7102] LOG:  listening on IPv6 address "::1", port 5432
+2020-12-08 16:44:12.684 CST [7102] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-12-08 16:44:12.685 CST [7102] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-12-08 16:44:12.840 CST [7103] LOG:  database system was shut down at 2020-12-08 16:43:54 CST
+2020-12-08 16:44:12.844 CST [7102] LOG:  database system is ready to accept connections
+2020-12-08 16:44:52.722 CST [7102] LOG:  received fast shutdown request
+2020-12-08 16:44:52.722 CST [7102] LOG:  aborting any active transactions
+2020-12-08 16:44:52.723 CST [7102] LOG:  background worker "logical replication launcher" (PID 7109) exited with exit code 1
+2020-12-08 16:44:52.725 CST [7104] LOG:  shutting down
+2020-12-08 16:44:52.846 CST [7102] LOG:  database system is shut down
+2021-09-01 14:41:22.115 CST [793001] LOG:  starting PostgreSQL 12.1 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 8.4.0-7ubuntu3) 8.4.0, 64-bit
+2021-09-01 14:41:22.115 CST [793001] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-01 14:41:22.121 CST [793001] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-01 14:41:22.211 CST [793002] LOG:  database system was shut down at 2021-08-28 18:53:45 CST
+2021-09-01 14:41:22.217 CST [793001] LOG:  database system is ready to accept connections
+2021-09-01 14:41:59.577 CST [793001] LOG:  received fast shutdown request
+2021-09-01 14:41:59.579 CST [793001] LOG:  aborting any active transactions
+2021-09-01 14:41:59.580 CST [793001] LOG:  background worker "logical replication launcher" (PID 793008) exited with exit code 1
+2021-09-01 14:41:59.580 CST [793003] LOG:  shutting down
+2021-09-01 14:41:59.643 CST [793001] LOG:  database system is shut down

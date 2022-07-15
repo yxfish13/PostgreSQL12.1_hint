@@ -1,0 +1,2503 @@
+2020-12-07 21:51:49.934 CST [122919] LOG:  starting PostgreSQL 12.1 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-39), 64-bit
+2020-12-07 21:51:49.935 CST [122919] LOG:  listening on IPv6 address "::1", port 5432
+2020-12-07 21:51:49.935 CST [122919] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-12-07 21:51:49.936 CST [122919] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-12-07 21:51:50.092 CST [122920] LOG:  database system was shut down at 2020-12-07 21:51:11 CST
+2020-12-07 21:51:50.096 CST [122919] LOG:  database system is ready to accept connections
+After canonicalize_qual()
+   {BOOLEXPR 
+   :boolop and 
+   :args (
+      {OPEXPR 
+      :opno 98 
+      :opfuncid 67 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 100 
+      :args (
+         {VAR 
+         :varno 2 
+         :varattno 2 
+         :vartype 25 
+         :vartypmod -1 
+         :varcollid 100 
+         :varlevelsup 0 
+         :varnoold 2 
+         :varoattno 2 
+         :location 267
+         }
+         {CONST 
+         :consttype 25 
+         :consttypmod -1 
+         :constcollid 100 
+         :constlen -1 
+         :constbyval false 
+         :constisnull false 
+         :location 279 
+         :constvalue 29 [ 116 0 0 0 109 97 114 118 101 108 45 99 105 110 101 1
+         09 97 116 105 99 45 117 110 105 118 101 114 115 101 ]
+         }
+      )
+      :location 277
+      }
+      {OPEXPR 
+      :opno 1209 
+      :opfuncid 850 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 100 
+      :args (
+         {VAR 
+         :varno 4 
+         :varattno 2 
+         :vartype 25 
+         :vartypmod -1 
+         :varcollid 100 
+         :varlevelsup 0 
+         :varnoold 4 
+         :varoattno 2 
+         :location 313
+         }
+         {CONST 
+         :consttype 25 
+         :consttypmod -1 
+         :constcollid 100 
+         :constlen -1 
+         :constbyval false 
+         :constisnull false 
+         :location 325 
+         :constvalue 19 [ 76 0 0 0 37 68 111 119 110 101 121 37 82 111 98 101 
+         114 116 37 ]
+         }
+      )
+      :location 320
+      }
+      {OPEXPR 
+      :opno 521 
+      :opfuncid 147 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 5 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 5 
+         :location 349
+         }
+         {CONST 
+         :consttype 23 
+         :consttypmod -1 
+         :constcollid 0 
+         :constlen 4 
+         :constbyval true 
+         :constisnull false 
+         :location 369 
+         :constvalue 4 [ -48 7 0 0 0 0 0 0 ]
+         }
+      )
+      :location 367
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 2 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 2 
+         :varoattno 1 
+         :location 380
+         }
+         {VAR 
+         :varno 3 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 3 
+         :location 387
+         }
+      )
+      :location 385
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 1 
+         :location 407
+         }
+         {VAR 
+         :varno 3 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 2 
+         :location 414
+         }
+      )
+      :location 412
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 1 
+         :location 432
+         }
+         {VAR 
+         :varno 1 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 3 
+         :location 439
+         }
+      )
+      :location 437
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 1 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 3 
+         :location 457
+         }
+         {VAR 
+         :varno 3 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 2 
+         :location 471
+         }
+      )
+      :location 469
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 4 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 4 
+         :varoattno 1 
+         :location 489
+         }
+         {VAR 
+         :varno 1 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 2 
+         :location 496
+         }
+      )
+      :location 494
+      }
+   )
+   :location -1
+   }
+
+RELOPTINFO (ci): rows=36244344 width=8
+	path list:
+	IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (n) rows=271 cost=0.44..305.89
+	  pathkeys: ((n.id, ci.person_id))
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+	IdxScan(ci) rows=36244344 cost=0.44..802594.68
+	  pathkeys: ((n.id, ci.person_id))
+	IdxScan(ci) rows=36244344 cost=0.44..893851.87
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+	IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (n) rows=271 cost=0.44..305.89
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+
+	cheapest total path:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+
+RELOPTINFO (k): rows=1 width=20
+	baserestrictinfo: k.keyword = marvel-cinematic-universe
+	path list:
+	IdxScan(k) required_outer (mk) rows=1 cost=0.29..0.32
+	  pathkeys: ((k.id, mk.keyword_id))
+	SeqScan(k) rows=1 cost=0.00..1914.12
+	IdxScan(k) rows=1 cost=0.29..3099.88
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest parameterized paths:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+	IdxScan(k) required_outer (mk) rows=1 cost=0.29..0.32
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest startup path:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+
+	cheapest total path:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+
+RELOPTINFO (mk): rows=4523930 width=8
+	path list:
+	IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+	IdxScan(mk) rows=4523930 cost=0.43..86278.57
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) rows=4523930 cost=0.43..104493.70
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest parameterized paths:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+	IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+
+	cheapest total path:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+
+RELOPTINFO (n): rows=417 width=19
+	baserestrictinfo: n.name ~~ %Downey%Robert%
+	path list:
+	IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((n.id, ci.person_id))
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+	SeqScan(n) rows=417 cost=0.00..65912.64
+	GatherMerge(n) rows=417 cost=1000.45..71985.76
+	  pathkeys: ((n.id, ci.person_id))
+		IdxScan(n) rows=174 cost=0.43..70937.60
+		  pathkeys: ((n.id, ci.person_id))
+	IdxScan(n) rows=417 cost=0.43..101325.56
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+	IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	SeqScan(n) rows=417 cost=0.00..65912.64
+
+	cheapest total path:
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+
+RELOPTINFO (t): rows=1376298 width=21
+	baserestrictinfo: t.production_year > 2000
+	path list:
+	IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+	IdxScan(t) rows=1376298 cost=0.43..62318.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+	IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+
+	cheapest total path:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+
+RELOPTINFO (ci mk): rows=182043423 width=16
+	path list:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..104493.70
+		  pathkeys: ((k.id, mk.keyword_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10061367293.16
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci n): rows=3627 width=19
+	path list:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (ci t): rows=19729772 width=29
+	path list:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10017157337.18
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (k mk): rows=34 width=20
+	path list:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	NestLoop(k mk) rows=34 cost=10000000000.43..10000156051.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: k.id = mk.keyword_id
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		Material(k) rows=1 cost=0.00..1914.13
+			SeqScan(k) rows=1 cost=0.00..1914.12
+
+	cheapest parameterized paths:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest total path:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+RELOPTINFO (mk t): rows=2462622 width=29
+	path list:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..104493.70
+		  pathkeys: ((k.id, mk.keyword_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci k mk): rows=1357 width=28
+	path list:
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019290147.23
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019381404.42
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019290147.23
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019290147.23
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest total path:
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019290147.23
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+RELOPTINFO (ci mk n): rows=18215 width=27
+	path list:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20089691904.83
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20089691904.83
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci mk t): rows=99096155 width=25
+	path list:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20050631362.55
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10017157337.18
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci n t): rows=1974 width=40
+	path list:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (k mk t): rows=19 width=41
+	path list:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	MergeJoin(k mk t) rows=19 cost=197930.77..204804.28
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: mk.movie_id = t.id
+	  sortouter=1 sortinner=1 materializeinner=0
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		SeqScan(t) rows=1376298 cost=0.00..40543.90
+
+	cheapest parameterized paths:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci k mk n): rows=1 width=39
+	path list:
+	NestLoop(ci k mk n) rows=1 cost=20000000007.71..20017278441.36
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: ci.movie_id = mk.movie_id
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk n) rows=1 cost=20000000007.71..20017278441.36
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: ci.movie_id = mk.movie_id
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	NestLoop(ci k mk n) rows=1 cost=20000000007.71..20017278441.36
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: ci.movie_id = mk.movie_id
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest total path:
+	NestLoop(ci k mk n) rows=1 cost=20000000007.71..20017278441.36
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: ci.movie_id = mk.movie_id
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+RELOPTINFO (ci k mk t): rows=739 width=37
+	path list:
+	NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: t.id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk t) rows=19 cost=7.26..2952.76
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: t.id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk t) rows=19 cost=7.26..2952.76
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: t.id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk t) rows=19 cost=7.26..2952.76
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: t.id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk t) rows=19 cost=7.26..2952.76
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci mk n t): rows=9915 width=36
+	path list:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (ci k mk n t): rows=1 width=48
+	path list:
+	NestLoop(ci k mk n t) rows=1 cost=20000000008.14..20011135519.41
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: t.id = ci.movie_id
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			Material(k mk t) rows=19 cost=7.26..2952.76
+				NestLoop(k mk t) rows=19 cost=7.26..2952.66
+				  clauses: 
+					NestLoop(k mk) rows=34 cost=6.83..2937.03
+					  clauses: 
+						SeqScan(k) rows=1 cost=0.00..1914.12
+						BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+					IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+					  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk n t) rows=1 cost=20000000008.14..20011135519.41
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: t.id = ci.movie_id
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			Material(k mk t) rows=19 cost=7.26..2952.76
+				NestLoop(k mk t) rows=19 cost=7.26..2952.66
+				  clauses: 
+					NestLoop(k mk) rows=34 cost=6.83..2937.03
+					  clauses: 
+						SeqScan(k) rows=1 cost=0.00..1914.12
+						BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+					IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+					  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk n t) rows=1 cost=20000000008.14..20011135519.41
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: t.id = ci.movie_id
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			Material(k mk t) rows=19 cost=7.26..2952.76
+				NestLoop(k mk t) rows=19 cost=7.26..2952.66
+				  clauses: 
+					NestLoop(k mk) rows=34 cost=6.83..2937.03
+					  clauses: 
+						SeqScan(k) rows=1 cost=0.00..1914.12
+						BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+					IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+					  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci k mk n t) rows=1 cost=20000000008.14..20011135519.41
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=10000000007.70..10011135185.43
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: t.id = ci.movie_id
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			Material(k mk t) rows=19 cost=7.26..2952.76
+				NestLoop(k mk t) rows=19 cost=7.26..2952.66
+				  clauses: 
+					NestLoop(k mk) rows=34 cost=6.83..2937.03
+					  clauses: 
+						SeqScan(k) rows=1 cost=0.00..1914.12
+						BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+					IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+					  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+2020-12-07 21:52:34.655 CST [122940] LOG:  pg_hint_plan:
+	used hint:
+	Leading(((k mk) t))
+	not used hint:
+	duplication hint:
+	error hint:
+	
+2020-12-07 21:52:34.655 CST [122940] STATEMENT:  explain (COSTS,analyse) /*+
+	Leading(((k mk) t)) 
+	*/ SELECT MIN(k.keyword) AS movie_keyword,
+	       MIN(n.name) AS actor_name,
+	       MIN(t.title) AS marvel_movie
+	FROM cast_info AS ci,
+	     keyword AS k,
+	     movie_keyword AS mk,
+	     name AS n,
+	     title AS t
+	WHERE k.keyword = 'marvel-cinematic-universe'
+	  AND n.name LIKE '%Downey%Robert%'
+	  AND t.production_year > 2000
+	  AND k.id = mk.keyword_id
+	  AND t.id = mk.movie_id
+	  AND t.id = ci.movie_id
+	  AND ci.movie_id = mk.movie_id
+	  AND n.id = ci.person_id;
+	
+	
+After canonicalize_qual()
+   {BOOLEXPR 
+   :boolop and 
+   :args (
+      {OPEXPR 
+      :opno 98 
+      :opfuncid 67 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 100 
+      :args (
+         {VAR 
+         :varno 2 
+         :varattno 2 
+         :vartype 25 
+         :vartypmod -1 
+         :varcollid 100 
+         :varlevelsup 0 
+         :varnoold 2 
+         :varoattno 2 
+         :location 266
+         }
+         {CONST 
+         :consttype 25 
+         :consttypmod -1 
+         :constcollid 100 
+         :constlen -1 
+         :constbyval false 
+         :constisnull false 
+         :location 278 
+         :constvalue 29 [ 116 0 0 0 109 97 114 118 101 108 45 99 105 110 101 1
+         09 97 116 105 99 45 117 110 105 118 101 114 115 101 ]
+         }
+      )
+      :location 276
+      }
+      {OPEXPR 
+      :opno 1209 
+      :opfuncid 850 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 100 
+      :args (
+         {VAR 
+         :varno 4 
+         :varattno 2 
+         :vartype 25 
+         :vartypmod -1 
+         :varcollid 100 
+         :varlevelsup 0 
+         :varnoold 4 
+         :varoattno 2 
+         :location 312
+         }
+         {CONST 
+         :consttype 25 
+         :consttypmod -1 
+         :constcollid 100 
+         :constlen -1 
+         :constbyval false 
+         :constisnull false 
+         :location 324 
+         :constvalue 19 [ 76 0 0 0 37 68 111 119 110 101 121 37 82 111 98 101 
+         114 116 37 ]
+         }
+      )
+      :location 319
+      }
+      {OPEXPR 
+      :opno 521 
+      :opfuncid 147 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 5 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 5 
+         :location 348
+         }
+         {CONST 
+         :consttype 23 
+         :consttypmod -1 
+         :constcollid 0 
+         :constlen 4 
+         :constbyval true 
+         :constisnull false 
+         :location 368 
+         :constvalue 4 [ -48 7 0 0 0 0 0 0 ]
+         }
+      )
+      :location 366
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 2 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 2 
+         :varoattno 1 
+         :location 379
+         }
+         {VAR 
+         :varno 3 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 3 
+         :location 386
+         }
+      )
+      :location 384
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 1 
+         :location 406
+         }
+         {VAR 
+         :varno 3 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 2 
+         :location 413
+         }
+      )
+      :location 411
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 5 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 5 
+         :varoattno 1 
+         :location 431
+         }
+         {VAR 
+         :varno 1 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 3 
+         :location 438
+         }
+      )
+      :location 436
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 1 
+         :varattno 3 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 3 
+         :location 456
+         }
+         {VAR 
+         :varno 3 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 3 
+         :varoattno 2 
+         :location 470
+         }
+      )
+      :location 468
+      }
+      {OPEXPR 
+      :opno 96 
+      :opfuncid 65 
+      :opresulttype 16 
+      :opretset false 
+      :opcollid 0 
+      :inputcollid 0 
+      :args (
+         {VAR 
+         :varno 4 
+         :varattno 1 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 4 
+         :varoattno 1 
+         :location 488
+         }
+         {VAR 
+         :varno 1 
+         :varattno 2 
+         :vartype 23 
+         :vartypmod -1 
+         :varcollid 0 
+         :varlevelsup 0 
+         :varnoold 1 
+         :varoattno 2 
+         :location 495
+         }
+      )
+      :location 493
+      }
+   )
+   :location -1
+   }
+
+RELOPTINFO (ci): rows=36244344 width=8
+	path list:
+	IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (n) rows=271 cost=0.44..305.89
+	  pathkeys: ((n.id, ci.person_id))
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+	IdxScan(ci) rows=36244344 cost=0.44..802594.68
+	  pathkeys: ((n.id, ci.person_id))
+	IdxScan(ci) rows=36244344 cost=0.44..893851.87
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+	IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(ci) required_outer (n) rows=271 cost=0.44..305.89
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+
+	cheapest total path:
+	SeqScan(ci) rows=36244344 cost=0.00..425337.44
+
+RELOPTINFO (k): rows=1 width=20
+	baserestrictinfo: k.keyword = marvel-cinematic-universe
+	path list:
+	IdxScan(k) required_outer (mk) rows=1 cost=0.29..0.32
+	  pathkeys: ((k.id, mk.keyword_id))
+	SeqScan(k) rows=1 cost=0.00..1914.12
+	IdxScan(k) rows=1 cost=0.29..3099.88
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest parameterized paths:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+	IdxScan(k) required_outer (mk) rows=1 cost=0.29..0.32
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest startup path:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+
+	cheapest total path:
+	SeqScan(k) rows=1 cost=0.00..1914.12
+
+RELOPTINFO (mk): rows=4523930 width=8
+	path list:
+	IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+	IdxScan(mk) rows=4523930 cost=0.43..86278.57
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) rows=4523930 cost=0.43..104493.70
+	  pathkeys: ((k.id, mk.keyword_id))
+
+	cheapest parameterized paths:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+	IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+
+	cheapest total path:
+	SeqScan(mk) rows=4523930 cost=0.00..51320.30
+
+RELOPTINFO (n): rows=417 width=19
+	baserestrictinfo: n.name ~~ %Downey%Robert%
+	path list:
+	IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((n.id, ci.person_id))
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+	SeqScan(n) rows=417 cost=0.00..65912.64
+	GatherMerge(n) rows=417 cost=1000.45..71985.76
+	  pathkeys: ((n.id, ci.person_id))
+		IdxScan(n) rows=174 cost=0.43..70937.60
+		  pathkeys: ((n.id, ci.person_id))
+	IdxScan(n) rows=417 cost=0.43..101325.56
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+	IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	SeqScan(n) rows=417 cost=0.00..65912.64
+
+	cheapest total path:
+	Gather(n) rows=417 cost=1000.00..36566.38
+		SeqScan(n) rows=174 cost=0.00..35524.68
+
+RELOPTINFO (t): rows=1376298 width=21
+	baserestrictinfo: t.production_year > 2000
+	path list:
+	IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+	IdxScan(t) rows=1376298 cost=0.43..62318.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+	IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+
+	cheapest total path:
+	SeqScan(t) rows=1376298 cost=0.00..40543.90
+
+RELOPTINFO (ci mk): rows=182043423 width=16
+	path list:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..104493.70
+		  pathkeys: ((k.id, mk.keyword_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10061367293.16
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007403326.77
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci n): rows=3627 width=19
+	path list:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..893851.87
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (ci t): rows=19729772 width=29
+	path list:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10017157337.18
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (k mk): rows=34 width=20
+	path list:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	NestLoop(k mk) rows=34 cost=0.43..156051.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: k.id = mk.keyword_id
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		Material(k) rows=1 cost=0.00..1914.13
+			SeqScan(k) rows=1 cost=0.00..1914.12
+
+	cheapest parameterized paths:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest startup path:
+	NestLoop(k mk) rows=34 cost=0.43..156051.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: k.id = mk.keyword_id
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		Material(k) rows=1 cost=0.00..1914.13
+			SeqScan(k) rows=1 cost=0.00..1914.12
+
+	cheapest total path:
+	NestLoop(k mk) rows=34 cost=6.83..2937.03
+	  clauses: 
+		SeqScan(k) rows=1 cost=0.00..1914.12
+		BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+RELOPTINFO (mk t): rows=2462622 width=29
+	path list:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..104493.70
+		  pathkeys: ((k.id, mk.keyword_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(mk t) rows=2462622 cost=10000000000.86..10002166835.01
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		IdxScan(mk) rows=4523930 cost=0.43..86278.57
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci k mk): rows=1357 width=28
+	path list:
+	NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=0.43..156051.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: k.id = mk.keyword_id
+			IdxScan(mk) rows=4523930 cost=0.43..86278.57
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			Material(k) rows=1 cost=0.00..1914.13
+				SeqScan(k) rows=1 cost=0.00..1914.12
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci k mk) rows=1357 cost=10000000007.27..10019290147.23
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: mk.movie_id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk) rows=34 cost=6.83..2937.20
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=0.43..156051.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: k.id = mk.keyword_id
+			IdxScan(mk) rows=4523930 cost=0.43..86278.57
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			Material(k) rows=1 cost=0.00..1914.13
+				SeqScan(k) rows=1 cost=0.00..1914.12
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=0.43..156051.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: k.id = mk.keyword_id
+			IdxScan(mk) rows=4523930 cost=0.43..86278.57
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			Material(k) rows=1 cost=0.00..1914.13
+				SeqScan(k) rows=1 cost=0.00..1914.12
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=0.43..156051.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: k.id = mk.keyword_id
+			IdxScan(mk) rows=4523930 cost=0.43..86278.57
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			Material(k) rows=1 cost=0.00..1914.13
+				SeqScan(k) rows=1 cost=0.00..1914.12
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci mk n): rows=18215 width=27
+	path list:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20089691904.83
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20089691904.83
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk) rows=182043423 cost=10000000000.87..10007421541.90
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci mk n) rows=18215 cost=20000000001.30..20017279715.23
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci n) rows=3627 cost=10000000000.87..10017273654.47
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..893851.87
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((n.id, ci.person_id))
+		IdxScan(mk) required_outer (ci) rows=45 cost=0.43..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci mk t): rows=99096155 width=25
+	path list:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20050631362.55
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10017157337.18
+		  pathkeys: ((n.id, ci.person_id))
+		  clauses: 
+			IdxScan(ci) rows=36244344 cost=0.44..802594.68
+			  pathkeys: ((n.id, ci.person_id))
+			IdxScan(t) required_outer (ci) rows=1 cost=0.43..0.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(mk) required_outer (t) rows=45 cost=0.43..1.25
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: t.id = ci.movie_id
+		NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: 
+			IdxScan(mk) rows=4523930 cost=0.43..104493.70
+			  pathkeys: ((k.id, mk.keyword_id))
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci n t): rows=1974 width=40
+	path list:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci n t) rows=1974 cost=20000000001.30..20011448432.73
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci t) rows=19729772 cost=10000000000.87..10002532013.37
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			IdxScan(t) rows=1376298 cost=0.43..62318.45
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (t) rows=40 cost=0.44..1.39
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (k mk t): rows=19 width=41
+	path list:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	GatherMerge(k mk t) rows=19 cost=3939.29..49202.95
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		MergeJoin(k mk t) rows=8 cost=2939.27..48200.73
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: mk.movie_id = t.id
+		  sortouter=0 sortinner=1 materializeinner=0
+			IdxScan(t) rows=573458 cost=0.43..43882.84
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+	MergeJoin(k mk t) rows=19 cost=2939.71..68619.18
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: mk.movie_id = t.id
+	  sortouter=0 sortinner=1 materializeinner=0
+		IdxScan(t) rows=1376298 cost=0.43..62318.45
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+
+	cheapest parameterized paths:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(k mk t) rows=19 cost=7.26..2952.66
+	  clauses: 
+		NestLoop(k mk) rows=34 cost=6.83..2937.03
+		  clauses: 
+			SeqScan(k) rows=1 cost=0.00..1914.12
+			BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+		IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci k mk n): rows=1 width=39
+	path list:
+	NestLoop(ci k mk n) rows=1 cost=20000000001.30..20000156719.90
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=0.43..156051.64
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			  clauses: k.id = mk.keyword_id
+				IdxScan(mk) rows=4523930 cost=0.43..86278.57
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+				Material(k) rows=1 cost=0.00..1914.13
+					SeqScan(k) rows=1 cost=0.00..1914.12
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk n) rows=1 cost=20000000001.30..20000156719.90
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=0.43..156051.64
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			  clauses: k.id = mk.keyword_id
+				IdxScan(mk) rows=4523930 cost=0.43..86278.57
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+				Material(k) rows=1 cost=0.00..1914.13
+					SeqScan(k) rows=1 cost=0.00..1914.12
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk n) rows=1 cost=20000000001.30..20000156719.90
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=0.43..156051.64
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			  clauses: k.id = mk.keyword_id
+				IdxScan(mk) rows=4523930 cost=0.43..86278.57
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+				Material(k) rows=1 cost=0.00..1914.13
+					SeqScan(k) rows=1 cost=0.00..1914.12
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci k mk n) rows=1 cost=20000000001.30..20000156719.90
+	  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	  clauses: 
+		NestLoop(ci k mk) rows=1357 cost=10000000000.87..10000156106.64
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=0.43..156051.64
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			  clauses: k.id = mk.keyword_id
+				IdxScan(mk) rows=4523930 cost=0.43..86278.57
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+				Material(k) rows=1 cost=0.00..1914.13
+					SeqScan(k) rows=1 cost=0.00..1914.12
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (ci k mk t): rows=739 width=37
+	path list:
+	NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+	  clauses: t.id = ci.movie_id
+		NestLoop(k mk t) rows=19 cost=7.26..2952.66
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+	NestLoop(ci k mk t) rows=739 cost=7.70..11135185.43
+	  pathkeys: ((n.id, ci.person_id))
+	  clauses: t.id = ci.movie_id
+		IdxScan(ci) rows=36244344 cost=0.44..802594.68
+		  pathkeys: ((n.id, ci.person_id))
+		Material(k mk t) rows=19 cost=7.26..2952.76
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+	  clauses: t.id = ci.movie_id
+		NestLoop(k mk t) rows=19 cost=7.26..2952.66
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+	  clauses: t.id = ci.movie_id
+		NestLoop(k mk t) rows=19 cost=7.26..2952.66
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+	cheapest total path:
+	NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+	  clauses: t.id = ci.movie_id
+		NestLoop(k mk t) rows=19 cost=7.26..2952.66
+		  clauses: 
+			NestLoop(k mk) rows=34 cost=6.83..2937.03
+			  clauses: 
+				SeqScan(k) rows=1 cost=0.00..1914.12
+				BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+			IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+		  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+
+RELOPTINFO (ci mk n t): rows=9915 width=36
+	path list:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci mk n t) rows=9915 cost=30000000001.73..30051198622.61
+	  pathkeys: ((k.id, mk.keyword_id))
+	  clauses: 
+		NestLoop(ci mk t) rows=99096155 cost=20000000001.30..20006414381.01
+		  pathkeys: ((k.id, mk.keyword_id))
+		  clauses: t.id = ci.movie_id
+			NestLoop(mk t) rows=2462622 cost=10000000000.86..10002185050.14
+			  pathkeys: ((k.id, mk.keyword_id))
+			  clauses: 
+				IdxScan(mk) rows=4523930 cost=0.43..104493.70
+				  pathkeys: ((k.id, mk.keyword_id))
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+RELOPTINFO (ci k mk n t): rows=1 width=48
+	path list:
+	NestLoop(ci k mk n t) rows=1 cost=10000000008.14..10000003319.27
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+		  clauses: t.id = ci.movie_id
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest parameterized paths:
+	NestLoop(ci k mk n t) rows=1 cost=10000000008.14..10000003319.27
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+		  clauses: t.id = ci.movie_id
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest startup path:
+	NestLoop(ci k mk n t) rows=1 cost=10000000008.14..10000003319.27
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+		  clauses: t.id = ci.movie_id
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+	cheapest total path:
+	NestLoop(ci k mk n t) rows=1 cost=10000000008.14..10000003319.27
+	  clauses: 
+		NestLoop(ci k mk t) rows=739 cost=7.70..2985.30
+		  clauses: t.id = ci.movie_id
+			NestLoop(k mk t) rows=19 cost=7.26..2952.66
+			  clauses: 
+				NestLoop(k mk) rows=34 cost=6.83..2937.03
+				  clauses: 
+					SeqScan(k) rows=1 cost=0.00..1914.12
+					BitmapHeapScan(mk) required_outer (k) rows=310 cost=6.83..1019.80
+				IdxScan(t) required_outer (mk) rows=1 cost=0.43..0.46
+				  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+			IdxScan(ci) required_outer (mk) rows=40 cost=0.44..1.22
+			  pathkeys: ((t.id, mk.movie_id, ci.movie_id))
+		IdxScan(n) required_outer (ci) rows=1 cost=0.43..0.45
+		  pathkeys: ((n.id, ci.person_id))
+
+2020-12-07 21:53:26.345 CST [122940] LOG:  pg_hint_plan:
+	used hint:
+	Leading(k mk t ci)
+	not used hint:
+	duplication hint:
+	error hint:
+	
+2020-12-07 21:53:26.345 CST [122940] STATEMENT:  explain (COSTS,analyse) /*+
+	Leading(k mk t ci)
+	*/
+	 SELECT MIN(k.keyword) AS movie_keyword,
+	       MIN(n.name) AS actor_name,
+	       MIN(t.title) AS marvel_movie
+	FROM cast_info AS ci,
+	     keyword AS k,
+	     movie_keyword AS mk,
+	     name AS n,
+	     title AS t
+	WHERE k.keyword = 'marvel-cinematic-universe'
+	  AND n.name LIKE '%Downey%Robert%'
+	  AND t.production_year > 2000
+	  AND k.id = mk.keyword_id
+	  AND t.id = mk.movie_id
+	  AND t.id = ci.movie_id
+	  AND ci.movie_id = mk.movie_id
+	  AND n.id = ci.person_id;
+	
+	
+2020-12-07 21:55:13.677 CST [122919] LOG:  received fast shutdown request
+2020-12-07 21:55:13.677 CST [122919] LOG:  aborting any active transactions
+2020-12-07 21:55:13.677 CST [122940] FATAL:  terminating connection due to administrator command
+2020-12-07 21:55:13.679 CST [122919] LOG:  background worker "logical replication launcher" (PID 122926) exited with exit code 1
+2020-12-07 21:55:13.783 CST [122921] LOG:  shutting down
+2020-12-07 21:55:14.172 CST [122919] LOG:  database system is shut down
